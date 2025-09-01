@@ -6,9 +6,11 @@ footer: 'https://clontz.org'
 
 # Separation Axioms Among US
 
-Steven Clontz
-2025 
-STTM 2025
+Steven Clontz  
+University of South Alabama
+
+2025 September 06  
+[Set Theory and Topology in Messina](https://servizimift.unime.it/sttm/)
 
 ![bg right](./img/amongus.png)
 
@@ -16,23 +18,36 @@ STTM 2025
 
 ## But first, a word from our sponsor!
 
-- The *Team-Based Inquiry Learning Resource Library* ([TBIL.org](https://tbil.org)) is a repository of free and open-source evidence-based materials for active learning Precalculus, Calculus, and Linear Algebra classrooms.
-- This work was made possible through the support of [National Science Foundation Award #2011807](https://nsf.gov/awardsearch/showAward?AWD_ID=2011807).
+- The *Team-Based Inquiry Learning Resource Library*
+  ([TBIL.org](https://tbil.org)) is a repository of free and open-source 
+  evidence-based materials for active learning Precalculus, Calculus, and 
+  Linear Algebra classrooms.
+- This work was made possible through the support of 
+  [National Science Foundation Award #2011807](https://nsf.gov/awardsearch/showAward?AWD_ID=2011807).
 
 ![width:250px center](./img/nsf.png)
+
+![bg opacity:0.15 blur](https://tbil.org/static/TBIL.jpg)
 
 ---
 
 ## Abstract
 
-A standard introductory result is that Hausdorff spaces have the property US, that is, each convergent sequence has a unique limit. This paper explores several existing and new characterizations of separation axioms that are strictly weaker than Hausdorff but strictly stronger than US.
+A standard introductory result is that Hausdorff spaces have the property 
+US, that is, each convergent sequence has a unique limit. This paper 
+explores several existing and new characterizations of separation axioms 
+that are strictly weaker than Hausdorff but strictly stronger than US.
 
+
+![bg opacity:.1 grayscale blur](https://picsum.photos/id/24/800/600)
 
 ---
 
 ## Where our story begins.
 
-In [0], Wilansky published a systematic overview of two properties strictly between $T_2$ and $T_1$: **KC (Kompacts are Closed)** and **US (converging Sequences have Unique limits)**.
+In [0], Wilansky published a systematic overview of two properties strictly 
+between $T_2$ and $T_1$: **KC (Kompacts are Closed)** and
+**US (converging Sequences have Unique limits)**.
 
 One may show that
 
@@ -46,64 +61,118 @@ with no arrows reversing.
 
 [0] Wilansky A. Between $T_1$ and $T_2$. Amer Math Monthly. 1967;74:261-6. Available from: https://doi.org/10.2307/2316017.
 
-![bg opacity:.05](https://picsum.photos/id/197/800/600?blur=2)
+![bg opacity:.05 blur](https://picsum.photos/id/197/800/600)
 
 ---
 
 ## But why am I interested in this?
 
-My dirty secret: I'm only a part-time topologist these days. 😲
+My dirty secret: I'm only a part-time topologist these days. 😢
 
-A big part of my active scholarly program is focused on **research infrastructure** for mathematics, and I have a particular interest in **databases of research mathematics**.
+&nbsp;
 
-My favorite database through? The [$\pi$-Base community database of topological counterexamples](https://topology.pi-base.org).
+A major part of my active scholarly program is focused on
+**digital research infrastructure** for mathematics, and I have a 
+particular interest in **databases of research mathematics**. 💻
 
-![bg opacity:.05](https://picsum.photos/id/1/800/600?blur=2)
+And my favorite database? The
+[$\pi$-Base community database of topological counterexamples](https://topology.pi-base.org),
+of course.
 
----
-
-## 6. Tables
-
-| Column 1 | Column 2 |
-| -------- | -------- |
-| Item 1   | Item 2   |
-| Item 3   | Item 4   |
+![bg opacity:.1 blur](https://picsum.photos/id/1/800/600?blur=2)
 
 ---
 
-![bg opacity](https://picsum.photos/800/600?image=53)
-## 7. Columns
+## What is needed to contribute properties like KC and US to the $\pi$-Base?
 
-<div class="columns">
-<div>
+- Notability
+  - [KC (P100)](https://topology.pi-base.org/properties/P000100) and 
+    [US (P99)](https://topology.pi-base.org/properties/P000099) 
+    are indeed properties recognized in the literature.
+- Connections
+  - The theorems $T_2\Rightarrow KC$, $KC\Rightarrow US$, and
+    $US\Rightarrow T_1$ connect these properties to others known to
+    $\pi$-Base.
+- Counter-examples
+  - Spaces (e.g.)
+    [Cocountable topology on $\mathbb R$ (S17)](https://topology.pi-base.org/spaces/S000017),
+    [Square of one-point compactificiation of $\mathbb Q$ (S31)](https://topology.pi-base.org/spaces/S000031),
+    and
+    [Cofinite topology on $\mathbb Z$ (S15)](https://topology.pi-base.org/spaces/S000017)
+    witness that each implication does not reverse.
 
-## Left
-
-- 1
-- 2
-
-</div>
-<div>
-
-## Right
-
-- 3
-- 4
-
-</div>
-</div>
+![bg opacity:.05 blur](https://picsum.photos/id/265/800/600)
 
 ---
 
-## 8. Icons
+## Done! Now what?
 
-<i class="fa-brands fa-twitter"></i> Twitter: 
-<i class="fa-brands fa-mastodon"></i> Mastodon: 
-<i class="fa-brands fa-linkedin"></i> LinkedIn: 
-<i class="fa fa-window-maximize"></i> Blog: 
-<i class="fa-brands fa-github"></i> GitHub: 
+<style scoped>
+p, li {
+  font-size: 0.9em;
+}
+</style>
+
+Part of hat's fun about contributing to $\pi$-Base today is that there's 
+still so much ground to cover to catch up to the current state of the 
+literature.
+
+- It seems Patrick Rabau was the
+  first to observe in 2021 [1]
+  that the
+  [**wH** (Weak Hausdorff, P143)](https://topology.pi-base.org/properties/P000143)
+  property lies strictly between KC and US.
+- Madison and Lawson define **kH** (k-Hausdorff) in [2], and showed it
+  lives between $T_2$ and KC.
+- Rezk also defines kH in [3], and showed it is implied by wH.
+
+[1] Rabau, P. *Relationship between weak Hausdorff and US properties.* 
+[Math StackExchange (2021).](https://math.stackexchange.com/questions/4267169/)
+
+[2] Madison, B., Lawson, J. *Quotients of k-semigroups.*
+[Semigroup Forum 9 (1974): 1-18.](http://eudml.org/doc/134055)
+
+[3] Rezk, C. *Compactly generated spaces.*
+[nLab (2018).](https://ncatlab.org/nlab/files/Rezk_CompactlyGeneratedSpaces.pdf)
+
+![bg opacity:.05 blur](https://picsum.photos/id/287/800/600)
 
 ---
 
-# 9. <!--fit--> Large Text
+![bg height:100%](./img/objection.jpg)
 
+---
+
+## Cleaning up k-Hausdorff
+
+On Math StackExchange [4], Rabau and I took a careful look at
+the kH property. In both [2] and [3], a space was defined to be
+k-Hausdorff provided that its diagonal is **k-closed**.
+
+The trick is that there are two inequivalent definitions of k-closed
+in the literature. Let's say a set is **$k_1$-closed** provided
+its intersection with every compact subspace is closed, and
+**$k_2$-closed** provided its intersection with the image of any
+compact Hausdroff space is closed. We then obtain the respective
+definitions for what we will now call
+[**$k_1$H** ($k_1$-Hausdorff, P170)](https://topology.pi-base.org/properties/P000170)
+and
+[**$k_2$H** ($k_2$-Hausdorff, P171)](https://topology.pi-base.org/properties/P000171)
+
+&nbsp;
+
+[4] Clontz, S., and Rabau, P.
+*How are k-Hausdorff and weakly Hausdorff distinct?*
+[Math StackExchange (2023).](https://math.stackexchange.com/questions/4760309/)
+
+![bg opacity:.1 blur](https://picsum.photos/id/341/800/600)
+
+---
+
+# <!-- fit --> Questions?
+
+Thanks for listening! Find me at [Clontz.org](https://clontz.org).
+
+
+
+![bg opacity:.25 blur](https://servizimift.unime.it/sttm/images/pilone_laghi.jpg)
