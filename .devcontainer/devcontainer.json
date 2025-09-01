@@ -30,7 +30,8 @@
 					"./slides/themes/custom-default.css",
 					"./slides/themes/custom-gaia.css",
 					"./slides/themes/custom-uncover.css"
-				  ]
+				  ],
+				"markdown.marp.breaks": "off"
 			},
 			"extensions": [
 				"streetsidesoftware.code-spell-checker",
