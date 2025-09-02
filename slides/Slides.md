@@ -38,6 +38,13 @@ US, that is, each convergent sequence has a unique limit. This paper
 explores several existing and new characterizations of separation axioms 
 that are strictly weaker than Hausdorff but strictly stronger than US.
 
+&nbsp;
+
+Based upon joint work [0] with Marshall Williams.
+
+[0] C., Williams, M. *Separation Axioms Among US.*
+[Topology and its Applications, Volume 375, 2025.](
+https://doi.org/10.1016/j.topol.2025.109467)
 
 ![bg opacity:.1 grayscale blur](https://picsum.photos/id/24/800/600)
 
@@ -45,7 +52,7 @@ that are strictly weaker than Hausdorff but strictly stronger than US.
 
 ## Where our story begins.
 
-In [0], Wilansky published a systematic overview of two properties strictly 
+In [1], Wilansky published a systematic overview of two properties strictly 
 between $T_2$ and $T_1$: **KC (Kompacts are Closed)** and
 **US (converging Sequences have Unique limits)**.
 
@@ -59,7 +66,7 @@ with no arrows reversing.
 
 &nbsp;
 
-[0] Wilansky A. Between $T_1$ and $T_2$. Amer Math Monthly. 1967;74:261-6. Available from: https://doi.org/10.2307/2316017.
+[1] Wilansky A. Between $T_1$ and $T_2$. Amer Math Monthly. 1967;74:261-6. Available from: https://doi.org/10.2307/2316017.
 
 ![bg opacity:.05 blur](https://picsum.photos/id/197/800/600)
 
@@ -113,26 +120,26 @@ p, li {
 }
 </style>
 
-Part of hat's fun about contributing to $\pi$-Base today is that there's 
+Part of what's fun about contributing to $\pi$-Base today is that there's 
 still so much ground to cover to catch up to the current state of the 
 literature.
 
 - It seems Patrick Rabau was the
-  first to observe in 2021 [1]
+  first to observe in 2021 [2]
   that the
   [**wH** (Weak Hausdorff, P143)](https://topology.pi-base.org/properties/P000143)
   property lies strictly between KC and US.
-- Madison and Lawson define **kH** (k-Hausdorff) in [2], and showed it
+- Madison and Lawson define **kH** (k-Hausdorff) in [3], and showed it
   lives between $T_2$ and KC.
-- Rezk also defines kH in [3], and showed it is implied by wH.
+- Rezk also defines kH in [4], and showed it is implied by wH.
 
-[1] Rabau, P. *Relationship between weak Hausdorff and US properties.* 
+[2] Rabau, P. *Relationship between weak Hausdorff and US properties.* 
 [Math StackExchange (2021).](https://math.stackexchange.com/questions/4267169/)
 
-[2] Madison, B., Lawson, J. *Quotients of k-semigroups.*
+[3] Madison, B., Lawson, J. *Quotients of k-semigroups.*
 [Semigroup Forum 9 (1974): 1-18.](http://eudml.org/doc/134055)
 
-[3] Rezk, C. *Compactly generated spaces.*
+[4] Rezk, C. *Compactly generated spaces.*
 [nLab (2018).](https://ncatlab.org/nlab/files/Rezk_CompactlyGeneratedSpaces.pdf)
 
 ![bg opacity:.05 blur](https://picsum.photos/id/287/800/600)
@@ -145,7 +152,7 @@ literature.
 
 ## Cleaning up k-Hausdorff
 
-On Math StackExchange [4], Rabau and I took a careful look at
+On Math StackExchange [5], Rabau and I took a careful look at
 the kH property. In both [2] and [3], a space was defined to be
 k-Hausdorff provided that its diagonal is **k-closed**.
 
@@ -161,11 +168,53 @@ and
 
 &nbsp;
 
-[4] Clontz, S., and Rabau, P.
+[5] C, and Rabau, P.
 *How are k-Hausdorff and weakly Hausdorff distinct?*
 [Math StackExchange (2023).](https://math.stackexchange.com/questions/4760309/)
 
 ![bg opacity:.1 blur](https://picsum.photos/id/341/800/600)
+
+---
+
+## Putting it together
+
+$$T_2\Rightarrow k_1H \Rightarrow KC \Rightarrow wH \Rightarrow k_2H
+\Rightarrow US \Rightarrow T_1$$
+
+with no arrows reversing.
+In fact:
+
+![](./img/diagram.png)
+
+[6] C.
+*Non-Hausdorff T_1 Properties*
+[arXiv (2024).](https://arxiv.org/abs/2312.08328)
+
+---
+
+## Generalizing US
+
+Let's dig into another definition for $k_2H$:
+
+> For every compact Hausdorff space $K$, continuous map $f:K\to X$,
+and points $k,l\in K$ with $f(k)\not=f(l)$, there exist open neighborhoods
+$U,V$ of $k,l$ with $f[U]\cap f[V]=\emptyset$.
+
+Letting $K=\omega+1$ and we easily see why $k_2H\Rightarrow US$.
+But what about other types of sequences?
+
+---
+
+## Transfinite sequences
+
+Define a **transfinite sequence** to be a function from a limit
+ordinal $\alpha$ into a topological space. Note that every
+$\omega$-length (transfinite) sequence is **continuous**, but
+longer transfinite sequences need not be.
+
+A **limit** of a transfinite sequence is a point such that every
+neighborhood contains a final tail of the sequence; the limit is
+said to **converge** to this limit.
 
 ---
 
