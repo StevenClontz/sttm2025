@@ -101,7 +101,7 @@ than Hausdorff but strictly stronger than US.
 [Topology and its Applications, Volume 375, 2025.](
 https://doi.org/10.1016/j.topol.2025.109467)
 
-![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+![bg opacity:.1 blur](https://picsum.photos/800/600?random=1)
 
 ---
 
@@ -123,7 +123,7 @@ with no arrows reversing.
 
 [1] Wilansky A. Between $T_1$ and $T_2$. Amer Math Monthly. 1967;74:261-6. Available from: https://doi.org/10.2307/2316017.
 
-![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+![bg opacity:.1 blur](https://picsum.photos/800/600?random=2)
 
 ---
 
@@ -141,7 +141,7 @@ And my favorite database? The
 [$\pi$-Base community database of topological counterexamples](https://topology.pi-base.org),
 of course.
 
-![bg opacity:.1 blur](https://picsum.photos/id/1/800/600?blur=2)
+![bg opacity:.1 blur](https://picsum.photos/id/1/800/600)
 
 ---
 
@@ -163,7 +163,7 @@ of course.
     [Cofinite topology on $\mathbb Z$ (S15)](https://topology.pi-base.org/spaces/S000017)
     witness that each implication does not reverse.
 
-![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+![bg opacity:.1 blur](https://picsum.photos/800/600?random=3)
 
 ---
 
@@ -199,7 +199,7 @@ literature.
 [4] Rezk, C. *Compactly generated spaces.*
 [nLab (2018).](https://ncatlab.org/nlab/files/Rezk_CompactlyGeneratedSpaces.pdf)
 
-![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+![bg opacity:.1 blur](https://picsum.photos/800/600?random=4)
 
 ---
 
@@ -229,7 +229,7 @@ and
 *How are k-Hausdorff and weakly Hausdorff distinct?*
 [Math StackExchange (2023).](https://math.stackexchange.com/questions/4760309/)
 
-![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+![bg opacity:.1 blur](https://picsum.photos/800/600?random=5)
 
 ---
 
@@ -250,7 +250,7 @@ In fact:
 [arXiv (2024).](https://arxiv.org/abs/2312.08328)
 (Under revision to resubmit, I promise!)
 
-![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+![bg opacity:.1 blur](https://picsum.photos/800/?random=6)
 
 ---
 
@@ -264,7 +264,7 @@ $U,V$ of $k,l$ with $f[U]\cap f[V]=\emptyset$.
 
 Let $K=\omega+1$ and we easily see why $k_2H\Rightarrow US$.
 
-![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+![bg opacity:.1 blur](https://picsum.photos/800/600?random=7)
 
 ---
 
@@ -288,7 +288,7 @@ the answer.
 SUS space?"
 [Math StackExchange (2023)](https://math.stackexchange.com/questions/4778063/).
 
-![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+![bg opacity:.1 blur](https://picsum.photos/800/600?random=8)
 
 ---
 
@@ -303,7 +303,7 @@ A **limit** of a transfinite sequence is a point such that every
 neighborhood contains a final tail of the sequence; the 
 transfinite sequence is said to **converge** to this limit.
 
-![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+![bg opacity:.1 blur](https://picsum.photos/800/600?random=9)
 
 ---
 
@@ -331,7 +331,7 @@ $$T_2\Rightarrow UR \Rightarrow UCR \Rightarrow US.$$
 > (Our paper also considers a property UOK intermediate to
 > UR & UCR, which we omit here.)
 
-![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+![bg opacity:.1 blur](https://picsum.photos/800/600?random=10)
 
 ---
 
@@ -351,7 +351,7 @@ this point produces a UCR but not $T_2$ space.
     converging continuous transfinite sequences are eventually
     constant, and thus (given $T_1$) have a unique limit.
 
-![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+![bg opacity:.1 blur](https://picsum.photos/800/600?random=11)
 
 ---
 
@@ -371,7 +371,7 @@ So, take the doubled point, and take a transfinite sequence
 of distinct points
 converging to it in $\beta\omega$: this witnesses $\neg$UR.
 
-![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+![bg opacity:.1 blur](https://picsum.photos/800/600?random=12)
 
 ---
 
@@ -387,7 +387,7 @@ Therefore:
 $$T_2\Rightarrow k_1H \Rightarrow KC \Rightarrow wH \Rightarrow 
 k_2H \Rightarrow UCR \Rightarrow US \Rightarrow T_1$$
 
-![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+![bg opacity:.1 blur](https://picsum.photos/800/600?random=13)
 
 ---
 
@@ -400,7 +400,7 @@ already shown. Indeed, we can show
 
 with no arrows reversing or missing.
 
-![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+![bg opacity:.1 blur](https://picsum.photos/800/600?random=14)
 
 ---
 
@@ -421,7 +421,7 @@ Here compacta are finite $T_1$ and thus $T_2$. But
 non-trivial transfinite sequences of uncountable length
 converge to every point of the space, violating UR.
 
-![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+![bg opacity:.1 blur](https://picsum.photos/800/600?random=15)
 
 ---
 
@@ -444,7 +444,7 @@ eventually live in one of the two copies of
 $\beta\omega\setminus\omega$, and thus converge within that
 copy to a unique limit. $\square$
 
-![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+![bg opacity:.1 blur](https://picsum.photos/800/600?random=16)
 
 ---
 
@@ -468,7 +468,7 @@ student/early-career folks. Contributing to the database
 also builds "real world" (cough) tech
 skills for students who may end up outside of research.
 
-![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+![bg opacity:.1 blur](https://picsum.photos/800/600?random=17)
 
 ---
 
