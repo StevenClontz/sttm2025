@@ -131,15 +131,21 @@ with no arrows reversing.
 
 My dirty secret: I'm only a part-time topologist these days. 😢
 
-&nbsp;
-
 A major part of my active scholarly program is focused on
-**digital research infrastructure** for mathematics, and I have a 
+the **digital and social infrastructure**
+of mathematics research [2], and I have a 
 particular interest in **databases of research mathematics**. 💻
 
 And my favorite database? The
 [$\pi$-Base community database of topological counterexamples](https://topology.pi-base.org),
 of course.
+
+&nbsp;
+
+[2] C. *Database-Driven Mathematical Inquiry and the $\pi$-Base Model for Small Semantic Databases*.
+Proceedings of LMFDB, Computation, and Number Theory (LuCaNT).
+Contemporary Mathematics. (To appear).
+
 
 ![bg opacity:.1 blur](https://picsum.photos/id/1/800/600)
 
@@ -180,23 +186,23 @@ still so much ground to cover to catch up to the current state of the
 literature.
 
 - It seems Patrick Rabau was the
-  first to observe in 2021 [2]
+  first to observe in 2021 [3]
   that the
   [**wH** (Weak Hausdorff, P143)](https://topology.pi-base.org/properties/P000143)
   property lies strictly between KC and US.
-- Madison and Lawson define **kH** (k-Hausdorff) in [3], and showed it
+- Madison and Lawson define **kH** (k-Hausdorff) in [4], and showed it
   lives between $T_2$ and KC.
-- Rezk also defines kH in [4], and showed it is implied by wH.
+- Rezk also defines kH in [5], and showed it is implied by wH.
 
 &nbsp;
 
-[2] Rabau, P. *Relationship between weak Hausdorff and US properties.* 
+[3] Rabau, P. *Relationship between weak Hausdorff and US properties.* 
 [Math StackExchange (2021).](https://math.stackexchange.com/questions/4267169/)
 
-[3] Madison, B., Lawson, J. *Quotients of k-semigroups.*
+[4] Madison, B., Lawson, J. *Quotients of k-semigroups.*
 [Semigroup Forum 9 (1974): 1-18.](http://eudml.org/doc/134055)
 
-[4] Rezk, C. *Compactly generated spaces.*
+[5] Rezk, C. *Compactly generated spaces.*
 [nLab (2018).](https://ncatlab.org/nlab/files/Rezk_CompactlyGeneratedSpaces.pdf)
 
 ![bg opacity:.1 blur](https://picsum.photos/800/600?random=4)
@@ -209,8 +215,8 @@ literature.
 
 ## Cleaning up k-Hausdorff
 
-On Math StackExchange [5], Rabau and I took a careful look at
-the kH property. In both [2] and [3], a space was defined to be
+On Math StackExchange [6], Rabau and I took a careful look at
+the kH property. In both [4] and [5], a space was defined to be
 k-Hausdorff provided that its diagonal is **k-closed**.
 
 The trick is that there are two inequivalent definitions of k-closed
@@ -225,7 +231,7 @@ and
 
 &nbsp;
 
-[5] C, and Rabau, P.
+[6] C, and Rabau, P.
 *How are k-Hausdorff and weakly Hausdorff distinct?*
 [Math StackExchange (2023).](https://math.stackexchange.com/questions/4760309/)
 
@@ -245,7 +251,7 @@ In fact:
 
 ![](./img/diagram.png)
 
-[6] C.
+[7] C.
 *Non-Hausdorff $T_1$ Properties*.
 [arXiv (2024).](https://arxiv.org/abs/2312.08328)
 (Under revision to resubmit, I promise!)
@@ -275,7 +281,7 @@ Lynne Yengulalp and Jocelyn Bell) I presented this work.
 Alan Dow asked if I'd considered longer sequences.
 
 I considered this question rather SUS (Strongly Uniquely
-Sequential), but wrote it up on Math StackExchange anyway [7].
+Sequential), but wrote it up on Math StackExchange anyway [8].
 The post was popular, likely because of all the inside jokes 
 [ඞ](https://knowyourmeme.com/memes/subcultures/among-us)
 I baked into it. But the attention eventually led
@@ -284,7 +290,7 @@ the answer.
 
 &nbsp;
 
-[7] C., Williams, M. "Is there anyone among us who can identify a certain
+[8] C., Williams, M. "Is there anyone among us who can identify a certain
 SUS space?"
 [Math StackExchange (2023)](https://math.stackexchange.com/questions/4778063/).
 
