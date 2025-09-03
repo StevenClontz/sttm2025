@@ -315,6 +315,25 @@ k_2H \Rightarrow UCR \Rightarrow US \Rightarrow T_1$$
 
 ---
 
+## Where does UR fit?
+
+Interestingly, it doesn't! At least no more than we've
+already shown. Indeed, we can show
+
+![center](./img/diagram2.png)
+
+with no arrows reversing or missing.
+
+---
+
+## Proof
+
+We'll ignore the (heretofore undefined) lH, sH, RC properties.
+So I owe you examples which are $k_1H$ but not UR, and
+UR but not even $k_2H$.
+
+---
+
 # <!-- fit --> Questions?
 
 Thanks for listening! Find me at [Clontz.org](https://clontz.org).
