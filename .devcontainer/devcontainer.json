@@ -18,7 +18,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
+	"postCreateCommand": "sudo apt update && sudo apt install -y chromium",
 	"postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
 	
 	// Configure tool-specific properties.
