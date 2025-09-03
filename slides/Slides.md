@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: custom-default
-footer: 'https://clontz.org'
+footer: 'Steven [Clontz.org](https://clontz.org)'
 ---
 
 # Separation Axioms Among US
@@ -22,7 +22,8 @@ University of South Alabama
   ([TBIL.org](https://tbil.org)) is a repository of free and open-source 
   evidence-based materials for active learning Precalculus, Calculus, and 
   Linear Algebra classrooms.
-- This work was made possible through the support of 
+- That work (and this visit to STTM communicating it)
+  was made possible through the support of 
   [National Science Foundation Award #2011807](https://nsf.gov/awardsearch/showAward?AWD_ID=2011807).
 
 ![width:250px center](./img/nsf.png)
@@ -31,16 +32,42 @@ University of South Alabama
 
 ---
 
+![bg height:100%](./img/tbil.png)
+
+---
+
+## Seeking: Special Session organizers for SumTopo 2026
+
+SumTopo 2026 will be in Split, Croatia! We're seeking
+organizers for a special session in General and Set-Theoretic
+Topology. Email <steven@clontz.org> to volunteer or visit
+[Clontz.org/SumTopo](https://clontz.org/sumtopo) to learn more.
+
+![center height:300px](./img/qr.png)
+
+---
+
+## PSA: Careful that you can unlock your bathroom doors...
+
+Don't be a victim like Will Brian!
+
+---
+
+# Now back to your scheduled programming.
+
+---
+
 ## Abstract
 
-A standard introductory result is that Hausdorff spaces have the property 
-US, that is, each convergent sequence has a unique limit. This paper 
-explores several existing and new characterizations of separation axioms 
-that are strictly weaker than Hausdorff but strictly stronger than US.
+A standard introductory result is that Hausdorff spaces have the 
+property  US, that is, each convergent sequence has a unique 
+limit. Here we will explore several existing and new 
+characterizations of separation axioms that are strictly weaker 
+than Hausdorff but strictly stronger than US.
 
 &nbsp;
 
-Based upon joint work [0] with Marshall Williams.
+*Based upon joint work [0] with Marshall Williams.*
 
 [0] C., Williams, M. *Separation Axioms Among US.*
 [Topology and its Applications, Volume 375, 2025.](
@@ -133,6 +160,8 @@ literature.
   lives between $T_2$ and KC.
 - Rezk also defines kH in [4], and showed it is implied by wH.
 
+&nbsp;
+
 [2] Rabau, P. *Relationship between weak Hausdorff and US properties.* 
 [Math StackExchange (2021).](https://math.stackexchange.com/questions/4267169/)
 
@@ -178,6 +207,8 @@ and
 
 ## Putting it together
 
+As it turns out, we have
+
 $$T_2\Rightarrow k_1H \Rightarrow KC \Rightarrow wH \Rightarrow k_2H
 \Rightarrow US \Rightarrow T_1$$
 
@@ -189,7 +220,7 @@ In fact:
 [6] C.
 *Non-Hausdorff $T_1$ Properties*.
 [arXiv (2024).](https://arxiv.org/abs/2312.08328)
-(Under revision, I promise!)
+(Under revision to resubmit, I promise!)
 
 ---
 
@@ -201,7 +232,7 @@ Let's dig into another definition for $k_2H$:
 and points $k,l\in K$ with $f(k)\not=f(l)$, there exist open neighborhoods
 $U,V$ of $k,l$ with $f[U]\cap f[V]=\emptyset$.
 
-Letting $K=\omega+1$ and we easily see why $k_2H\Rightarrow US$.
+Let $K=\omega+1$ and we easily see why $k_2H\Rightarrow US$.
 
 ---
 
@@ -213,7 +244,8 @@ Alan Dow asked if I'd considered longer sequences.
 
 I considered this question rather SUS (Strongly Uniquely
 Sequential), but wrote it up on Math StackExchange anyway [7].
-The post was popular, likely because of all the inside jokes ඞ
+The post was popular, likely because of all the inside jokes 
+[ඞ](https://knowyourmeme.com/memes/subcultures/among-us)
 I baked into it. But the attention eventually led
 user @MW (my now-coauthor Marshall Williams) to find
 the answer.
@@ -248,7 +280,7 @@ blockquote {
 
 ## UR and UCR
 
-This suggests two candidates for "SUS":
+This suggests two "SUS" candidates:
 
 - A space is **UR (Unique Radial limits)** provided the
 limit of every converging transfinite sequence is unique.
@@ -383,7 +415,7 @@ can be this map for the modern era. Not only does it
 help mathematicians find answers, it is also an incredibly
 useful tool for discovering *questions*, especially for
 student/early-career folks. Contributing to the database
-also builds "real world" (cough)
+also builds "real world" (cough) tech
 skills for students who may end up outside of research.
 
 ---
