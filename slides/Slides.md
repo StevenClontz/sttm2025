@@ -44,7 +44,7 @@ University of South Alabama
 
 ## Seeking: Special Session organizers for SumTopo 2026
 
-SumTopo 2026 will be in Split, Croatia! We're seeking
+SumTopo 2026 will be in Split, Croatia from July 13-17! We're seeking
 organizers for a special session in General and Set-Theoretic
 Topology. Email <steven@clontz.org> to volunteer or visit
 [Clontz.org/SumTopo](https://clontz.org/sumtopo) to learn more.
