@@ -213,7 +213,7 @@ Alan Dow asked if I'd considered longer sequences.
 
 I considered this question rather SUS (Strongly Uniquely
 Sequential), but wrote it up on Math StackExchange anyway [7].
-The post was popular, likely because of all the inside jokes
+The post was popular, likely because of all the inside jokes ඞ
 I baked into it. But the attention eventually led
 user @MW (my now-coauthor Marshall Williams) to find
 the answer.
@@ -328,9 +328,63 @@ with no arrows reversing or missing.
 
 ## Proof
 
-We'll ignore the (heretofore undefined) lH, sH, RC properties.
+We'll ignore the (heretofore undefined) lH, sH, RC,
+and UOK properties.
 So I owe you examples which are $k_1H$ but not UR, and
 UR but not even $k_2H$.
+
+### $k_1H$ but not UR
+
+The "standard" example of a $k_1H$ (which may be characterized
+by compact subspaces are all Hausdorff) which fails $T_2$ is not
+UR: consider the co-countable topology on an uncountable
+set ([S17](https://topology.pi-base.org/spaces/S000017)).
+Here compacta are finite $T_1$ and thus $T_2$. But
+non-trivial transfinite sequences of uncountable length
+converge to every point of the space, violating UR.
+
+---
+
+### UR but not $k_2H$
+
+To obtain an example which is UCR which failed UR,
+we "cheated" by doubling a point of
+the remainder in $\beta\omega$. Note that this space
+also fails $k_2H$: consider the natural maps from $\beta\omega$
+to this space that differ only on this doubled non-isolated point.
+
+So to obtain a UR space which fails $k_2H$, we want to use the 
+same trick to violate $k_2H$, but avoid transfinite sequences
+with non-unique limits.
+
+This can be done by doubling *every* point of 
+$\beta\omega\setminus\omega$. In this space, converging 
+transfinite sequences are either eventually constant, or
+eventually live in one of the two copies of 
+$\beta\omega\setminus\omega$, and thus converge within that
+copy to a unique limit. $\square$
+
+---
+
+# My pitch
+
+While sub-Hausdorff separation axioms are worthy
+of study independently, I'm more interested
+in pitching the methodology that inspired this investigation.
+
+Mary Ellen Rudin once said in her review of
+*Counterexamples in Topology* (paraphrased):
+
+> Topology is a dense forest of counterexamples.
+> A usable map of the forest is a fine thing.
+
+We hope that [$\pi$-Base](https://topology.pi-base.org)
+can be this map for the modern era. Not only does it
+help mathematicians find answers, it is also an incredibly
+useful tool for discovering *questions*, especially for
+student/early-career folks. Contributing to the database
+also builds "real world" (cough)
+skills for students who may end up outside of research.
 
 ---
 
