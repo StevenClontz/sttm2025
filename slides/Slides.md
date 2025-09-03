@@ -2,6 +2,7 @@
 marp: true
 theme: custom-default
 footer: 'Separation Axioms Among US | [Clontz.org](https://clontz.org)'
+math: mathjax
 ---
 
 <style>
