@@ -187,8 +187,9 @@ In fact:
 ![](./img/diagram.png)
 
 [6] C.
-*Non-Hausdorff T_1 Properties*
+*Non-Hausdorff $T_1$ Properties*.
 [arXiv (2024).](https://arxiv.org/abs/2312.08328)
+(Under revision, I promise!)
 
 ---
 
@@ -201,7 +202,27 @@ and points $k,l\in K$ with $f(k)\not=f(l)$, there exist open neighborhoods
 $U,V$ of $k,l$ with $f[U]\cap f[V]=\emptyset$.
 
 Letting $K=\omega+1$ and we easily see why $k_2H\Rightarrow US$.
-But what about other types of sequences?
+
+---
+
+## What about other types of sequences?
+
+In the Carolinas virtual topology seminar (soon to be revived by
+Lynne Yengulalp and Jocelyn Bell) I presented this work.
+Alan Dow asked if I'd considered longer sequences.
+
+I considered this question rather SUS (Strongly Uniquely
+Sequential), but wrote it up on Math StackExchange anyway [7].
+The post was popular, likely because of all the inside jokes
+I baked into it. But the attention eventually led
+user @MW (my now-coauthor Marshall Williams) to find
+the answer.
+
+&nbsp;
+
+[7] C., Williams, M. "Is there anyone among us who can identify a certain
+SUS space?"
+[Math StackExchange (2023)](https://math.stackexchange.com/questions/4778063/).
 
 ---
 
@@ -213,8 +234,84 @@ $\omega$-length (transfinite) sequence is **continuous**, but
 longer transfinite sequences need not be.
 
 A **limit** of a transfinite sequence is a point such that every
-neighborhood contains a final tail of the sequence; the limit is
-said to **converge** to this limit.
+neighborhood contains a final tail of the sequence; the 
+transfinite sequence is said to **converge** to this limit.
+
+---
+
+<style scoped>
+blockquote {
+  margin-top: 3em;
+  font-size: 0.7em;
+}
+</style>
+
+## UR and UCR
+
+This suggests two candidates for "SUS":
+
+- A space is **UR (Unique Radial limits)** provided the
+limit of every converging transfinite sequence is unique.
+
+- A space is **UCR (Unique Continuously-Radial limits)**
+provided the limit of every converging continuous transfinite
+sequence is unique.
+
+We see immediately that
+$$T_2\Rightarrow UR \Rightarrow UCR \Rightarrow US.$$
+
+> (Our paper also considers a property UOK intermediate to
+> UR & UCR, which we omit here.)
+
+---
+
+## Counterexamples
+
+- The space $\omega_1+1$ with its endpoint doubled
+([S37](https://topology.pi-base.org/spaces/S000037)) is
+US but not UCR.
+
+- Take a compact, Hausdorff, sequentially discrete
+(convergent sequences are eventually constant,
+[P167](https://topology.pi-base.org/properties/P167)) with
+a non-isolated point (e.g. $\beta\omega$,
+[S108](https://topology.pi-base.org/spaces/S108)). Doubling
+this point produces a UCR but not $T_2$ space.
+  - To see this, note sequentially discrete implies all
+    converging continuous transfinite sequences are eventually
+    constant, and thus (given $T_1$) have a unique limit.
+
+---
+
+## UCR but not UR
+
+In fact, this example fails to be UR. Note that every
+non-isolated point in a compact Hausdorff space is
+**radially accessible**, that is, there is a transfinite
+sequence (not necessarily continuous) of distinct points
+converging to it.
+
+- Idea: take a point, forbid a neighborhood around it whose
+closure misses the isolated point, take a second (non-forbidden)
+point, rinse, repeat...
+
+So, take the doubled point, and take a transfinite sequence
+of distinct points
+converging to it in $\beta\omega$: this witnesses $\neg$UR.
+
+---
+
+## Where does UCR fit?
+
+Just as $K=\omega+1$ witnesses the proof that
+$k_2H\Rightarrow US$, we may consider $K_\kappa=\kappa+1$
+to convince ourselves that $k_2H\Rightarrow UCR$.
+Therefore:
+
+&nbsp;
+
+$$T_2\Rightarrow k_1H \Rightarrow KC \Rightarrow wH \Rightarrow 
+k_2H \Rightarrow UCR \Rightarrow US \Rightarrow T_1$$
 
 ---
 
