@@ -4,6 +4,12 @@ theme: custom-default
 footer: 'Separation Axioms Among US | [Clontz.org](https://clontz.org)'
 ---
 
+<style>
+* {
+  text-shadow: 2px 2px 4px white;
+}
+</style>
+
 # Separation Axioms Among US
 
 Steven Clontz  
@@ -35,12 +41,6 @@ University of South Alabama
 ![bg height:100%](./img/tbil.png)
 
 ---
-
-<style scoped>
-* {
-  text-shadow: 2px 2px 4px white;
-}
-</style>
 
 ## Seeking: Special Session organizers for SumTopo 2026
 
@@ -75,13 +75,13 @@ I'm switching gears today!
 
 Don't be a victim like Will Brian!
 
+![](./img/the-more-you-know.gif)
+
+![bg left](./img/will.png)
+
 ---
 
-![bg](./img/the-more-you-know.gif)
-
----
-
-# Now back to your scheduled programming.
+# Now back to your scheduled programming...
 
 ---
 
@@ -101,7 +101,7 @@ than Hausdorff but strictly stronger than US.
 [Topology and its Applications, Volume 375, 2025.](
 https://doi.org/10.1016/j.topol.2025.109467)
 
-![bg opacity:.1 grayscale blur](https://picsum.photos/id/24/800/600)
+![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
 
 ---
 
@@ -123,7 +123,7 @@ with no arrows reversing.
 
 [1] Wilansky A. Between $T_1$ and $T_2$. Amer Math Monthly. 1967;74:261-6. Available from: https://doi.org/10.2307/2316017.
 
-![bg opacity:.05 blur](https://picsum.photos/id/197/800/600)
+![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
 
 ---
 
@@ -163,7 +163,7 @@ of course.
     [Cofinite topology on $\mathbb Z$ (S15)](https://topology.pi-base.org/spaces/S000017)
     witness that each implication does not reverse.
 
-![bg opacity:.05 blur](https://picsum.photos/id/265/800/600)
+![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
 
 ---
 
@@ -199,7 +199,7 @@ literature.
 [4] Rezk, C. *Compactly generated spaces.*
 [nLab (2018).](https://ncatlab.org/nlab/files/Rezk_CompactlyGeneratedSpaces.pdf)
 
-![bg opacity:.05 blur](https://picsum.photos/id/287/800/600)
+![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
 
 ---
 
@@ -229,7 +229,7 @@ and
 *How are k-Hausdorff and weakly Hausdorff distinct?*
 [Math StackExchange (2023).](https://math.stackexchange.com/questions/4760309/)
 
-![bg opacity:.1 blur](https://picsum.photos/id/341/800/600)
+![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
 
 ---
 
@@ -250,6 +250,8 @@ In fact:
 [arXiv (2024).](https://arxiv.org/abs/2312.08328)
 (Under revision to resubmit, I promise!)
 
+![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+
 ---
 
 ## Generalizing US
@@ -261,6 +263,8 @@ and points $k,l\in K$ with $f(k)\not=f(l)$, there exist open neighborhoods
 $U,V$ of $k,l$ with $f[U]\cap f[V]=\emptyset$.
 
 Let $K=\omega+1$ and we easily see why $k_2H\Rightarrow US$.
+
+![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
 
 ---
 
@@ -284,6 +288,8 @@ the answer.
 SUS space?"
 [Math StackExchange (2023)](https://math.stackexchange.com/questions/4778063/).
 
+![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+
 ---
 
 ## Transfinite sequences
@@ -296,6 +302,8 @@ longer transfinite sequences need not be.
 A **limit** of a transfinite sequence is a point such that every
 neighborhood contains a final tail of the sequence; the 
 transfinite sequence is said to **converge** to this limit.
+
+![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
 
 ---
 
@@ -323,6 +331,8 @@ $$T_2\Rightarrow UR \Rightarrow UCR \Rightarrow US.$$
 > (Our paper also considers a property UOK intermediate to
 > UR & UCR, which we omit here.)
 
+![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+
 ---
 
 ## Counterexamples
@@ -340,6 +350,8 @@ this point produces a UCR but not $T_2$ space.
   - To see this, note sequentially discrete implies all
     converging continuous transfinite sequences are eventually
     constant, and thus (given $T_1$) have a unique limit.
+
+![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
 
 ---
 
@@ -359,6 +371,8 @@ So, take the doubled point, and take a transfinite sequence
 of distinct points
 converging to it in $\beta\omega$: this witnesses $\neg$UR.
 
+![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+
 ---
 
 ## Where does UCR fit?
@@ -373,6 +387,8 @@ Therefore:
 $$T_2\Rightarrow k_1H \Rightarrow KC \Rightarrow wH \Rightarrow 
 k_2H \Rightarrow UCR \Rightarrow US \Rightarrow T_1$$
 
+![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+
 ---
 
 ## Where does UR fit?
@@ -383,6 +399,8 @@ already shown. Indeed, we can show
 ![center](./img/diagram2.png)
 
 with no arrows reversing or missing.
+
+![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
 
 ---
 
@@ -402,6 +420,8 @@ set ([S17](https://topology.pi-base.org/spaces/S000017)).
 Here compacta are finite $T_1$ and thus $T_2$. But
 non-trivial transfinite sequences of uncountable length
 converge to every point of the space, violating UR.
+
+![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
 
 ---
 
@@ -424,6 +444,8 @@ eventually live in one of the two copies of
 $\beta\omega\setminus\omega$, and thus converge within that
 copy to a unique limit. $\square$
 
+![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
+
 ---
 
 # My pitch
@@ -445,6 +467,8 @@ useful tool for discovering *questions*, especially for
 student/early-career folks. Contributing to the database
 also builds "real world" (cough) tech
 skills for students who may end up outside of research.
+
+![bg opacity:.1 blur grayscale](https://picsum.photos/800/600)
 
 ---
 
