@@ -61,7 +61,7 @@ This morning's schedule.
 
 - 9:00am, Jocelyn: "Games!"
 - 9:25am, Steven: who cares  
-  **(you are here)**
+  ☝ **(you are here)**
 - 9:50am, Michał: "Games!"
 
 I usually prefer topological games too, but there's a reason
