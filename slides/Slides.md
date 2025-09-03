@@ -6,7 +6,7 @@ footer: 'Separation Axioms Among US | [Clontz.org](https://clontz.org)'
 
 <style>
 * {
-  text-shadow: 2px 2px 2px white;
+  text-shadow: 1px 1px 2px white;
 }
 </style>
 
