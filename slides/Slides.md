@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: custom-default
-footer: 'Steven [Clontz.org](https://clontz.org)'
+footer: 'Separation Axioms Among US | [Clontz.org](https://clontz.org)'
 ---
 
 # Separation Axioms Among US
@@ -36,6 +36,12 @@ University of South Alabama
 
 ---
 
+<style scoped>
+* {
+  text-shadow: 2px 2px 4px white;
+}
+</style>
+
 ## Seeking: Special Session organizers for SumTopo 2026
 
 SumTopo 2026 will be in Split, Croatia! We're seeking
@@ -45,11 +51,33 @@ Topology. Email <steven@clontz.org> to volunteer or visit
 
 ![center height:300px](./img/qr.png)
 
+![bg opacity:0.3](./img/split.jpg)
+
+---
+
+## An apology:
+
+This morning's schedule.
+
+- 9:00am, Jocelyn: "Games!"
+- 9:25am, Steven: who cares  
+  **(you are here)**
+- 9:50am, Michał: "Games!"
+
+I usually prefer topological games too, but there's a reason
+I'm switching gears today!
+
+![bg right height:100%](./img/please-understand.jpg)
+
 ---
 
 ## PSA: Careful that you can unlock your bathroom doors...
 
 Don't be a victim like Will Brian!
+
+---
+
+![bg](./img/the-more-you-know.gif)
 
 ---
 
