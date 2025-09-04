@@ -152,6 +152,21 @@ Contemporary Mathematics. (To appear).
 
 ---
 
+![bg left](./img/dark-iwata.jpg)
+
+## Another apology...
+
+Despite this being **Set Theory** and Topology in Messina,
+$\pi$-Base is a database of general topology, mostly
+assuming nothing beyond ZFC.
+
+But if you would like to help me build a database for set
+theory (ZFC models, different cardinals...), especially one
+that could be used by $\pi$-Base to better model research
+in topology, let's chat!
+
+---
+
 ## What is needed to contribute properties like KC and US to the $\pi$-Base?
 
 - Notability
