@@ -325,6 +325,8 @@ A **limit** of a transfinite sequence is a point such that every
 neighborhood contains a final tail of the sequence; the 
 transfinite sequence is said to **converge** to this limit.
 
+![center height:300px](./img/sequences.jpg)
+
 ![bg opacity:.1 blur](https://picsum.photos/800/600?random=9)
 
 ---
